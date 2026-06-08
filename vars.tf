@@ -8,7 +8,7 @@ variable "AWS_REGION" {
     default = "ap-south-2"
 }
 variable "amazon_AMI" {
-    default = "ami-0543dbdaf4e114be7"
+    default = "ami-04e44fc07a0954cc9"
 }
 variable "amazon_instance_type" {
     default = "t3.micro"
