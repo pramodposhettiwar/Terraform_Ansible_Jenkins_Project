@@ -10,7 +10,7 @@ resource "aws_subnet" "dev-subnet" {
   vpc_id            = aws_vpc.dev-vpc.id
   cidr_block        = "${var.sub_cidr}"
   map_public_ip_on_launch = "true"
-  availability_zone = "ap-southeast-1a"
+  availability_zone = "ap-south-2a"
   tags = {
     Name = "dev-subnet"
   }
